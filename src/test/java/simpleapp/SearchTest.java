@@ -11,6 +11,10 @@ import org.junit.jupiter.api.Test;
 import com.mycompany.simpleapp.DijkstraSearch;
 import com.mycompany.simpleapp.models.Graph;
 
+import io.qameta.allure.Description;
+
+
+
 public class SearchTest {
 	
 	Graph graph = new Graph();

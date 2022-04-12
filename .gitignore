@@ -1,6 +1,8 @@
-/bin/
-/target/
-/.git
-/.settings
-/.vscode
-/.project
+bin
+target
+.git
+.settings
+.vscode
+.project
+.allure
+.classpath
