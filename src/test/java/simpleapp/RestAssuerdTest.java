@@ -94,7 +94,7 @@ public class RestAssuerdTest {
 				.extract().body().jsonPath().getList("data", ColorsData.class);
 
 		List<Integer> years = colors.stream().map(ColorsData::getYear).collect(Collectors.toList());
-		List<Integer> sortedYears = years.stream().sorted().toList();
+		List<Integer> sortedYears = years.stream().sorted().collect(Collectors.toList());
 		assertThat(sortedYears, is(years));
 	}
 
